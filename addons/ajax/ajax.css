@@ -1,0 +1,131 @@
+#searcher .creator {
+    background-color:#FF8;
+}
+#recur #nextdue {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin:1px;
+    border:none;
+}
+#recur {
+    position:relative;
+}
+.ajaxform {
+    position:absolute;
+    left:1em;
+    border: groove 6px blue;
+    z-index:1000;
+}
+.ajaxform * {
+    padding:1px;
+    margin:1px;
+}
+.ajaxform,.ajaxform form, .ajaxform div.form {
+    padding:0px;
+    margin:0px;
+}
+.ajaxcancel {
+    background-color:red;
+    color:white;
+}
+.ajaxexpand {
+    background-color:blue;
+    color:white;
+}
+.addlink,.ajaxbutton:hover {
+    cursor: pointer;
+}
+.ajaxbutton img {
+    margin:0px;
+}
+.ajaxbutton {
+    border:0px;
+    padding:1px;
+    margin:0px;
+    height:18px;
+    width:18px;
+}
+.ajaxbutton:hover {
+    border:1px dotted;
+    padding:0px;
+}
+.ajaxbutton:active {
+    border:1px dashed;
+    padding:0px;
+}
+#ajaxfullformbuttons {
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+div.ontop#freezer {
+    z-Index:1000;
+    cursor: wait;
+}
+tr.ajaxselected * {
+    background-color:#DAFADA !important;
+}
+.onajaxcall * {
+    cursor: wait;
+}
+#colselector {
+    position:absolute;
+    z-index: 2000;
+    border: 3px red groove;
+    width:10em;
+    background: white;
+}
+#colselector li {
+    list-style: none inside;
+    padding: 2px 2px 2px 20px;
+    margin:0px 2px;
+    cursor:pointer;
+}
+#colselector li:hover,#colselector li.colshown:hover {
+    background-color:#BBF;
+}
+#colselector li.colshown {
+    background: url(eye.png) no-repeat left center;
+}
+#saveperspective,#closeselector {
+    height:16px;
+    width:16px;
+    position:absolute;
+    top:0;
+    cursor:pointer;
+}
+#saveperspective {
+    background: url(table_save.png) no-repeat center;
+    right:24px;
+}
+#closeselector {
+    background: url(cross.png) no-repeat center;
+    right:0;
+}
+th.ajaxeye {
+    background: url(eye.png) no-repeat center;
+    cursor:pointer;
+}
+th.col-checkbox,th.col-checkbox select {
+    padding:0px;
+    margin:0px;
+}
+#multicontainer {
+    white-space: nowrap;
+}
+#multicontainer select {
+    margin:1px;
+    padding:1px;
+    z-index: 1;
+}
+#ajaxmessages {
+    z-index: 100;
+}
+#multidummy {
+    visibility:hidden;
+    width:1px;
+}
+.firstuse {
+    color:grey;
+}
