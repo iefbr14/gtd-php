@@ -151,7 +151,8 @@ if (!empty($childtype)) foreach (array('n','y') as $comp) foreach ($childtype as
     /* ------------------------------------------------
         decide which fields to tabulate, based on child item type, and completion status
     */
-	$shownext= ($comp==='n') && ($values['type']==='a' || $values['type']==='w');
+###DAS###	$shownext= ($comp==='n') && ($values['type']==='a' || $values['type']==='w');
+	$shownext= ($comp==='n');
 	$suppressed=0;
     $trimlength=$_SESSION['config'][($comp==="n")?'trimLengthInReport':'trimLength'];
     if($trimlength) {
