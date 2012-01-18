@@ -38,7 +38,7 @@ function show1($item) {  // recursive function to list an item, and to kick off 
 
     $prefix="<li class='tree{$values['type']}$liclass category{$values['categoryId']} context{$values['contextId']}";
 
-    $mid1="'>\n<img src='{$addon['dir']}cog.png' class='noprint' alt='Menu' title='Menu of actions' />
+    $mid1="'>\n<img src='{$addon['dir']}cog.png' class='noprint' alt='' title='Menu of actions' />
             <input type='hidden' name='id' value='{$values['itemId']}' />" ;
 
     $mid2="<span$spanclass>".makeclean($values['title'])."</span>";
